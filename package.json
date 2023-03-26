@@ -1,0 +1,20 @@
+{
+  "name": "nest-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "prod": "node apps/api/dist/main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "turbo": "^1.8.5"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
